@@ -1,0 +1,45 @@
+Toolkit Plan
+
+Tool Descriptions:
+1. Number Guessing Game: A game where the program generates a secret random number between 1 and 100, and the user tries to guess it with high/low hints until they get it right.
+2. Simple Calculator: A tool that takes two numbers and an arithmetic operator from the user and calculates the result.
+3. To-Do List Manager: A tool that allows users to view, add, and remove tasks from a personal task list.
+4. Countdown Timer: A utility that accepts a duration in seconds from the user and counts down to zero, displaying the remaining time second by second.
+
+Menu Text:
+========================================
+           PYTHON TOOLKIT MENU          
+========================================
+1. Number Guessing Game
+2. Simple Calculator
+3. To-Do List Manager
+4. Countdown Timer
+5. Exit
+========================================
+Enter your choice (1-5): 
+
+Programming Concepts Used:
+1. Number Guessing Game:
+   - Loops (`while`)
+   - Conditionals (`if`, `elif`, `else`)
+   - Random module (`random.randint`)
+   - F-strings (formatting output and attempt count)
+
+2. Simple Calculator:
+   - Conditionals (`if`, `elif`, `else`)
+   - User input casting (`float`, `int`)
+   - Functions / basic arithmetic operators
+   - F-strings (displaying formatted calculations)
+
+3. To-Do List Manager:
+   - Lists (storing and modifying task items)
+   - Loops (`while`, `for`)
+   - Conditionals (`if`, `elif`, `else`)
+   - List methods (`append`, `pop`, `remove`)
+   - F-strings (displaying numbered task lists)
+
+4. Countdown Timer:
+   - Time module (`time.sleep`)
+   - Loops (`while` / `for` countdown loop)
+   - Math / string formatting (converting seconds to MM:SS format)
+   - F-strings (displaying dynamic timer updates)
